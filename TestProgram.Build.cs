@@ -7,13 +7,10 @@ public class TestProgram : ModuleRules
 	public TestProgram(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PublicIncludePaths.Add("Runtime/Launch/Public");
+        PublicIncludePaths.Add("Runtime/Core/Public");
 
-		PrivateIncludePaths.Add("Runtime/Launch/Private");      // For LaunchEngineLoop.cpp include
-
-        PrivateIncludePaths.Add("Runtime/Core/Public");
-        //PublicIncludePaths.Add("Runtime/Core/Public");
-        //PrivateIncludePaths.Add("Runtime/Core/Private");
-
+        PrivateIncludePaths.Add("Runtime/Launch/Private");      // For LaunchEngineLoop.cpp include
+        PrivateIncludePaths.Add("Editor/MainFrame/Private");
 
         PrivateDependencyModuleNames.AddRange(
         new string[] {
