@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class TestProgram : ModuleRules
+public class BIMFramework : ModuleRules
 {
-	public TestProgram(ReadOnlyTargetRules Target) : base(Target)
+	public BIMFramework(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PublicIncludePaths.Add("Runtime/Launch/Public");
         PublicIncludePaths.Add("Runtime/Core/Public");

@@ -31,9 +31,9 @@ BEGIN
             VALUE "LegalCopyright", EPIC_COPYRIGHT_STRING
 			VALUE "ProductName", EPIC_PRODUCT_NAME
             VALUE "ProductVersion", ENGINE_VERSION_STRING
-            VALUE "FileDescription", "TestProgram"
-            VALUE "InternalName", "TestProgram"
-            VALUE "OriginalFilename", "TestProgram.exe"
+            VALUE "FileDescription", "BIMFramework"
+            VALUE "InternalName", "BIMFramework"
+            VALUE "OriginalFilename", "BIMFramework.exe"
         END
     END
     BLOCK "VarFileInfo"
@@ -50,4 +50,4 @@ END
 
 // Icon with lowest ID value placed first to ensure application icon
 // remains consistent on all systems.
-IDICON_UE4Game          ICON                    "TestProgram.ico"
+IDICON_UE4Game          ICON                    "BIMFramework.ico"

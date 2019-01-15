@@ -3,16 +3,16 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class TestProgramTarget : TargetRules
+public class BIMFrameworkTarget : TargetRules
 {
-	public TestProgramTarget(TargetInfo Target) : base(Target)
+	public BIMFrameworkTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Program;
 		LinkType = TargetLinkType.Monolithic;
-		LaunchModuleName = "TestProgram";
+		LaunchModuleName = "BIMFramework";
 
-		// Lean and mean
-		bCompileLeanAndMeanUE = true;
+        // Lean and mean
+        bCompileLeanAndMeanUE = true;
 
 		// Never use malloc profiling in Unreal Header Tool.  We set this because often UHT is compiled right before the engine
 		// automatically by Unreal Build Tool, but if bUseMallocProfiler is defined, UHT can operate incorrectly.
