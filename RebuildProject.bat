@@ -9,7 +9,7 @@ del ..\..\..\Intermediate\ProjectFiles\%current_dir_name%.*
 
 rem genreate program solution
 echo Using UnrealBuildTool Genreate Program "%current_dir_name%" solution
-echo ..\..\..\Binaries\DotNET\UnrealBuildTool.exe -ProjectFiles %current_dir_name%
+echo G:\UnrealEngine4\UnrealEngine\Engine\Binaries\DotNET\UnrealBuildTool.exe -ProjectFiles %current_dir_name%
 ..\..\..\Binaries\DotNET\UnrealBuildTool.exe -ProjectFiles %current_dir_name% -2017
 
 rem open project vs solution
